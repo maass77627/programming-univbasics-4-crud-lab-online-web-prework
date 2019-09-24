@@ -6,7 +6,7 @@ def create_an_array
   dogs = ["poodle", "bulldog", "shepard", "chow"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(dogs, element)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
   dogs.push("element")
 end
