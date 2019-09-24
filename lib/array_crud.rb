@@ -26,6 +26,7 @@ end
 
 def remove_element_from_start_of_array(array)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
+  poodle_dog = dogs.shift
 end
 
 def retrieve_element_from_index(array, index_number)
