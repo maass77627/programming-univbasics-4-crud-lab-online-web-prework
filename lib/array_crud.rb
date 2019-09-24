@@ -30,7 +30,7 @@ def remove_element_from_start_of_array(array)
   p dogs
 end
 
-def retrieve_element_from_index(dogs, index_number)
+def retrieve_element_from_index(dogs, 0)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
   dogs[0]
 end
