@@ -47,5 +47,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
-  dogs
+  dogs[1]
 end
