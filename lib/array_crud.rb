@@ -12,19 +12,19 @@ def add_element_to_end_of_array(dogs, element)
   p dogs
 end
 
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(dogs, mutt)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
   dogs.unshift("mutt")
   p dogs
 end
 
-def remove_element_from_end_of_array(array)
+def remove_element_from_end_of_array(dogs)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
   chow_dog = dogs.pop
   p dogs
 end
 
-def remove_element_from_start_of_array(array)
+def remove_element_from_start_of_array(dogs)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
   poodle_dog = dogs.shift
   p dogs
