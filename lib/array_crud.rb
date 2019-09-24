@@ -27,10 +27,11 @@ end
 def remove_element_from_start_of_array(array)
   dogs = ["poodle", "bulldog", "shepard", "chow"]
   poodle_dog = dogs.shift
+  p dogs
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  dogs = ["poodle", "bulldog", "shepard", "chow"]
 end
 
 def retrieve_first_element_from_array(array)
